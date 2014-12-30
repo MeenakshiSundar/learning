@@ -1,0 +1,116 @@
+body {
+    padding:0;
+    margin:0;
+}
+
+.menu_class{
+    width: 100%;
+    background-color: #E3E5E5;
+    height: 30px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin-right:150px;
+    padding: 0px;
+}
+
+#menu li {
+    float: right;
+}
+
+#menu a:link, a:visited {
+    display: block;
+    width: 80;
+    background-color: #E3E5E5;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15;
+    height: 30px;
+}
+
+#menu a:hover, a:active {
+    background-color: #BABEBE;
+}
+
+#menu h4{
+    margin-left:150px;
+    /*font-size: 0;*/
+   /* font-weight: bold;*/
+}
+
+.header_class{
+    background-color: #E3E5E5;
+    width: 1000px;
+    padding: 40px;
+    margin: 30px 0px 0px 150px;     /*Here top margin value is with refernce from menu bar */
+    border-radius: 10px;
+}
+
+ #container {
+    margin-top: 70px;   /* This is with reference from header */
+    width: 1100;
+    margin-left: 160px;  /* This is with refernce from browser left */
+    height: 450px;
+    /*background-color: red;*/
+    /*Enable the above two lines to visible see the container*/ 
+}
+
+#first {
+    width: 400px;
+    float: left;
+    /*height: 400px;*/
+}
+
+#second {
+    width: 400px;
+    float: left;    /* If we give float right, we cant give left margin */
+    /*height: 400px;*/
+    margin-left: 50px;   
+}
+
+#side {
+    width: 150px;
+    float: right;
+    height: 150px;
+    margin-right:30px;
+    margin-top:-30px;
+    background-color: #CCCCCC;
+    border-radius: 3px;
+    text-decoration: none;
+}
+ 
+#side ul {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 15px;
+}
+
+#side a:link, a:visited{
+    text-decoration: none;
+    color: #3399dd;
+    /*font-weight:bold;*/
+}
+
+
+#side h3{
+    text-align: right;
+    margin-right: 15px;
+}
+
+.footer_class {
+    /*clear: both;*/
+    background-color: #E3E5E5;
+    /*position:relative;*/
+    margin-bottom:0px;
+    height: 30px;
+    width: 100%;
+}
+
+#footer_text h5 {
+    margin-left:150px;
+    /*color: black;*/
+    margin-bottom: 0px;
+}
